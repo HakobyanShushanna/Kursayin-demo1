@@ -30,32 +30,35 @@ namespace Kursayin_demo1
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Selfie = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.Selfie)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.timer5 = new System.Windows.Forms.Timer(this.components);
+            this.timer6 = new System.Windows.Forms.Timer(this.components);
+            this.timer7 = new System.Windows.Forms.Timer(this.components);
+            this.timer8 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.timer9 = new System.Windows.Forms.Timer(this.components);
+            this.timer10 = new System.Windows.Forms.Timer(this.components);
+            this.timer11 = new System.Windows.Forms.Timer(this.components);
+            this.timer12 = new System.Windows.Forms.Timer(this.components);
+            this.timer13 = new System.Windows.Forms.Timer(this.components);
+            this.timer14 = new System.Windows.Forms.Timer(this.components);
+            this.timer15 = new System.Windows.Forms.Timer(this.components);
+            this.timer16 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // Selfie
-            // 
-            this.Selfie.Image = ((System.Drawing.Image)(resources.GetObject("Selfie.Image")));
-            this.Selfie.Location = new System.Drawing.Point(25, 44);
-            this.Selfie.Margin = new System.Windows.Forms.Padding(5);
-            this.Selfie.Name = "Selfie";
-            this.Selfie.Size = new System.Drawing.Size(249, 314);
-            this.Selfie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Selfie.TabIndex = 0;
-            this.Selfie.TabStop = false;
             // 
             // label2
             // 
@@ -63,57 +66,56 @@ namespace Kursayin_demo1
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(295, 188);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 25);
+            this.label2.Size = new System.Drawing.Size(132, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "2004թ․";
+            this.label2.Text = "20․09․2022թ․";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(295, 44);
+            this.label1.Location = new System.Drawing.Point(183, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(536, 47);
+            this.label1.Size = new System.Drawing.Size(444, 47);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Լուրջ չգիտեմ էս ինչա անում";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(632, 341);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(200, 17);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Էս էլ որ շատ դատարկ չլինի";
+            this.label1.Text = "Կուրսային աշխատանք";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(295, 124);
+            this.label5.Location = new System.Drawing.Point(223, 110);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(219, 25);
+            this.label5.Size = new System.Drawing.Size(299, 25);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Շուշաննա Հակոբյան";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(295, 153);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 25);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Արմենի";
+            this.label5.Text = "Շուշաննա Հակոբյան Արմենի";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(282, 320);
+            this.button1.Location = new System.Drawing.Point(657, 320);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(153, 38);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Don\'t Press";
+            this.button1.Text = "Չսեղմել";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(520, 94);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(174, 115);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Location = new System.Drawing.Point(681, 94);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(122, 104);
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
             // 
             // Main
             // 
@@ -122,17 +124,17 @@ namespace Kursayin_demo1
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(841, 371);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.Selfie);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Name = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.Selfie)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,13 +143,27 @@ namespace Kursayin_demo1
         #endregion
 
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.PictureBox Selfie;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.Timer timer5;
+        private System.Windows.Forms.Timer timer6;
+        private System.Windows.Forms.Timer timer7;
+        private System.Windows.Forms.Timer timer8;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Timer timer9;
+        private System.Windows.Forms.Timer timer10;
+        private System.Windows.Forms.Timer timer11;
+        private System.Windows.Forms.Timer timer12;
+        private System.Windows.Forms.Timer timer13;
+        private System.Windows.Forms.Timer timer14;
+        private System.Windows.Forms.Timer timer15;
+        private System.Windows.Forms.Timer timer16;
     }
 }
 

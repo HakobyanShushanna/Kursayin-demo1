@@ -33,8 +33,8 @@ namespace Kursayin_demo1
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +51,7 @@ namespace Kursayin_demo1
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(100, 450);
+            this.menuStrip1.Size = new System.Drawing.Size(141, 450);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -59,32 +59,32 @@ namespace Kursayin_demo1
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(87, 29);
-            this.toolStripMenuItem1.Text = "Sudoku";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(128, 29);
+            this.toolStripMenuItem1.Text = "Սուդոկու";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(87, 29);
-            this.toolStripMenuItem2.Text = "Advice";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(128, 29);
+            this.toolStripMenuItem2.Text = "Խորհուրդ";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(87, 29);
-            this.toolStripMenuItem3.Text = "Help";
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(87, 29);
-            this.toolStripMenuItem4.Text = "Exit";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(128, 29);
+            this.toolStripMenuItem3.Text = "Օգնություն";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(87, 29);
-            this.toolStripMenuItem5.Text = "About";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(128, 29);
+            this.toolStripMenuItem5.Text = "Հեղինակ";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(128, 29);
+            this.toolStripMenuItem4.Text = "Ելք";
             // 
             // Menu
             // 
@@ -95,7 +95,7 @@ namespace Kursayin_demo1
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
-            this.Text = "I really don\'t know what is this for";
+            this.Text = "Մենյու";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -38,6 +38,7 @@ namespace Kursayin_demo1
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(28, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -50,7 +51,7 @@ namespace Kursayin_demo1
             this.Ok.Name = "Ok";
             this.Ok.Size = new System.Drawing.Size(187, 56);
             this.Ok.TabIndex = 1;
-            this.Ok.Text = "Ok";
+            this.Ok.Text = "Փակել";
             this.Ok.UseVisualStyleBackColor = true;
             this.Ok.Click += new System.EventHandler(this.Ok_Click);
             // 
@@ -58,29 +59,29 @@ namespace Kursayin_demo1
             // 
             this.Random.Location = new System.Drawing.Point(604, 75);
             this.Random.Name = "Random";
-            this.Random.Size = new System.Drawing.Size(187, 56);
+            this.Random.Size = new System.Drawing.Size(187, 65);
             this.Random.TabIndex = 2;
-            this.Random.Text = "Random Tip";
+            this.Random.Text = "Պատահական խորհուրդ";
             this.Random.UseVisualStyleBackColor = true;
             this.Random.Click += new System.EventHandler(this.Random_Click);
             // 
             // Next
             // 
-            this.Next.Location = new System.Drawing.Point(604, 137);
+            this.Next.Location = new System.Drawing.Point(604, 147);
             this.Next.Name = "Next";
-            this.Next.Size = new System.Drawing.Size(187, 56);
+            this.Next.Size = new System.Drawing.Size(187, 65);
             this.Next.TabIndex = 3;
-            this.Next.Text = "Next Tip";
+            this.Next.Text = "Հաջորդ խորհուրդը";
             this.Next.UseVisualStyleBackColor = true;
             this.Next.Click += new System.EventHandler(this.Next_Click);
             // 
             // Previous
             // 
-            this.Previous.Location = new System.Drawing.Point(604, 199);
+            this.Previous.Location = new System.Drawing.Point(604, 219);
             this.Previous.Name = "Previous";
-            this.Previous.Size = new System.Drawing.Size(187, 56);
+            this.Previous.Size = new System.Drawing.Size(187, 62);
             this.Previous.TabIndex = 4;
-            this.Previous.Text = "Previous Tip";
+            this.Previous.Text = "Նախորդ խորհուրդը";
             this.Previous.UseVisualStyleBackColor = true;
             this.Previous.Click += new System.EventHandler(this.Previous_Click);
             // 
@@ -96,7 +97,7 @@ namespace Kursayin_demo1
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Name = "Advice";
-            this.Text = "Advice";
+            this.Text = "Խորհուրդ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

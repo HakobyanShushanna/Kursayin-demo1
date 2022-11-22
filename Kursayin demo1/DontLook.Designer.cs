@@ -74,7 +74,7 @@ namespace Kursayin_demo1
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "DontLook";
-            this.Text = "DontLook";
+            this.Text = "Չբացել";
             this.ResumeLayout(false);
             this.PerformLayout();
 
