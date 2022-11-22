@@ -43,29 +43,29 @@ namespace Kursayin_demo1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 25);
+            this.label1.Size = new System.Drawing.Size(72, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "User Name";
+            this.label1.Text = "Անուն";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 25);
+            this.label2.Size = new System.Drawing.Size(142, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Password";
+            this.label2.Text = "Գաղտնաբառ";
             // 
             // Name
             // 
-            this.Name.Location = new System.Drawing.Point(127, 18);
+            this.Name.Location = new System.Drawing.Point(178, 18);
             this.Name.Name = "Name";
             this.Name.Size = new System.Drawing.Size(287, 33);
             this.Name.TabIndex = 2;
             // 
             // Password
             // 
-            this.Password.Location = new System.Drawing.Point(127, 65);
+            this.Password.Location = new System.Drawing.Point(178, 65);
             this.Password.Name = "Password";
             this.Password.PasswordChar = '*';
             this.Password.Size = new System.Drawing.Size(287, 33);
@@ -84,7 +84,7 @@ namespace Kursayin_demo1
             // Cancel
             // 
             this.Cancel.Image = ((System.Drawing.Image)(resources.GetObject("Cancel.Image")));
-            this.Cancel.Location = new System.Drawing.Point(178, 114);
+            this.Cancel.Location = new System.Drawing.Point(316, 114);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(149, 71);
             this.Cancel.TabIndex = 5;
@@ -95,7 +95,7 @@ namespace Kursayin_demo1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 217);
+            this.ClientSize = new System.Drawing.Size(488, 217);
             this.ControlBox = false;
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.Ok);
@@ -104,8 +104,7 @@ namespace Kursayin_demo1
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.Name = "Login";
-            this.Text = "Login";
+            this.Text = "Մուտք";
             this.ResumeLayout(false);
             this.PerformLayout();
 

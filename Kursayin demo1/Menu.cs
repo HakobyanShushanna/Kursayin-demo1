@@ -26,33 +26,33 @@ namespace Kursayin_demo1
         {
             if (item != null)
             {
-                if (item.Text == "Sudoku")
+                if (item.Text == "Սուդոկու")
                 {
                     Sudoku sudoku = new Sudoku();
 
                     sudoku.Show();
                 }
-                else if (item.Text == "Advice")
+                else if (item.Text == "Խորհուրդ")
                 {
                     Advice tips = new Advice(); 
 
                     tips.Show();
                 }
-                else if (item.Text == "Help")
+                else if (item.Text == "Օգնությւն")
                 {
                     Help help = new Help();
 
                     help.Show();
                 }
-                else if(item.Text == "About")
+                else if(item.Text == "Հեղինակ")
                 {
                     About about = new About();
 
                     about.Show();
                 }
-                else if (item.Text == "Exit")
+                else if (item.Text == "Ելք")
                 {
-                    if (MessageBox.Show("Exit application?", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    if (MessageBox.Show("Դուրս գա՞լ", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
                         Application.Exit();
                     }

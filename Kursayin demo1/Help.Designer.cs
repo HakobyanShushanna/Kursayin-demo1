@@ -29,6 +29,7 @@ namespace Kursayin_demo1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Help));
             this.Ok = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -36,19 +37,20 @@ namespace Kursayin_demo1
             // 
             // Ok
             // 
-            this.Ok.Location = new System.Drawing.Point(262, 544);
+            this.Ok.Location = new System.Drawing.Point(509, 512);
             this.Ok.Name = "Ok";
             this.Ok.Size = new System.Drawing.Size(175, 59);
             this.Ok.TabIndex = 0;
-            this.Ok.Text = "Ok";
+            this.Ok.Text = "Փակել";
             this.Ok.UseVisualStyleBackColor = true;
             this.Ok.Click += new System.EventHandler(this.Ok_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(95, 12);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(73, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(500, 504);
+            this.pictureBox1.Size = new System.Drawing.Size(991, 476);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -57,13 +59,12 @@ namespace Kursayin_demo1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(721, 629);
+            this.ClientSize = new System.Drawing.Size(1163, 591);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Ok);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Name = "Help";
-            this.Text = "Help";
-            this.Load += new System.EventHandler(this.Help_Load);
+            this.Text = "Օգնություն և կանոններ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
