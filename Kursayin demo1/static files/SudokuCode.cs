@@ -180,7 +180,7 @@ namespace Kursayin_demo1.static_files
 
                 // extract coordinates i  and j
                 int i = (cellId / n);
-                int j = cellId % 9;
+                int j = cellId % 10;
                 if (j != 0)
                 {
                     j = j - 1;

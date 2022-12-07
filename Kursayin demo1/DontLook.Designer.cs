@@ -48,7 +48,7 @@ namespace Kursayin_demo1
             this.no.Location = new System.Drawing.Point(38, 132);
             this.no.Name = "no";
             this.no.Size = new System.Drawing.Size(131, 48);
-            this.no.TabIndex = 1;
+            this.no.TabIndex = 2;
             this.no.Text = "Չէ";
             this.no.UseVisualStyleBackColor = true;
             // 
@@ -57,7 +57,7 @@ namespace Kursayin_demo1
             this.yes.Location = new System.Drawing.Point(363, 132);
             this.yes.Name = "yes";
             this.yes.Size = new System.Drawing.Size(131, 48);
-            this.yes.TabIndex = 2;
+            this.yes.TabIndex = 1;
             this.yes.Text = "Հա";
             this.yes.UseVisualStyleBackColor = true;
             this.yes.Click += new System.EventHandler(this.yes_Click);
@@ -75,6 +75,7 @@ namespace Kursayin_demo1
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "DontLook";
             this.Text = "Չբացել";
+            this.Load += new System.EventHandler(this.DontLook_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

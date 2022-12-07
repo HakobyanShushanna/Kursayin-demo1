@@ -38,7 +38,7 @@ namespace Kursayin_demo1
 
                     tips.Show();
                 }
-                else if (item.Text == "Օգնությւն")
+                else if (item.Text == "Օգնություն")
                 {
                     Help help = new Help();
 

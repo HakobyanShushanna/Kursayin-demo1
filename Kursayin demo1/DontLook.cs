@@ -47,5 +47,10 @@ namespace Kursayin_demo1
             Main.pressedButton = false;
             Close();
         }
+
+        private void DontLook_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

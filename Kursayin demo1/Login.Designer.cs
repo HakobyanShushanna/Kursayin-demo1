@@ -114,7 +114,7 @@ namespace Kursayin_demo1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox Name;
+        private new System.Windows.Forms.TextBox Name;
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.Button Ok;
         private System.Windows.Forms.Button Cancel;
