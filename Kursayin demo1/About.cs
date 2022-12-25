@@ -12,10 +12,9 @@ namespace Kursayin_demo1
 {
     public partial class About : Form
     {
-        float fontSize = 14;
-        float change = 0.1f;
-        int q = 0;
-
+        int fontSize = 14;
+        bool smaller = false;
+        int x, y;
         public About()
         {
             InitializeComponent();
@@ -26,42 +25,30 @@ namespace Kursayin_demo1
             Close();
         }
 
-        // 13-1, 12-2, 11-3, 10-4, 9-5
-        // 10-6, 11-7, 12-8, 13-9, 14-10
-        // 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if ((q / 50) % 2 == 1)
+            x = label4.Location.X;
+            y = label4.Location.Y;
+
+            if (label4.Font.Size == 8 || label4.Font.Size == 30)
             {
-                fontSize += change;
+                smaller = !smaller;
             }
-            else
-            {
-                fontSize -= change;
-            }
-            if (q % 50 == 0)
-            {
-                if (((q - 1) / 50) % 2 == 0)
-                {
-                    fontSize += change;
-                }
-                else
-                {
-                    fontSize -= change;
-                }
-            }
-            q++;
+
+            fontSize = smaller == true ? fontSize - 1 : fontSize + 1;
+            x = smaller == true ? x + 6 : x - 6;
+            y = smaller == true ? y + 1 : y - 1;
+
             label4.Font = new Font("Segoe UI", fontSize);
+            label4.Location = new Point(x, y);
         }
 
         private void About_Load(object sender, EventArgs e)
         {
             Timer MyTimer = new Timer();
-            MyTimer.Interval = (5);
+            MyTimer.Interval = (50);
             MyTimer.Tick += new EventHandler(timer1_Tick);
             MyTimer.Start();
         }
-
-        // 
     }
 }

@@ -51,7 +51,7 @@ namespace Kursayin_demo1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(37, 44);
+            this.label2.Location = new System.Drawing.Point(37, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(721, 45);
             this.label2.TabIndex = 1;
@@ -74,6 +74,7 @@ namespace Kursayin_demo1
             this.label4.Size = new System.Drawing.Size(275, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Ստանալ սուդոկու մատրից";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Ok
             // 
